@@ -1,0 +1,80 @@
+
+.place-card {
+  width: 282px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 360px;
+}
+
+.place-card__delete-icon {
+  background: url(../../images/trash-icon.svg) center no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.place-card:hover .place-card__delete-icon {
+  display: block;
+}
+
+.place-card__description {
+  display: flex;
+  min-height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 22px;
+}
+
+.place-card__image {
+  height: 282px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.place-card__image::after {
+  content: '';
+  display: block;
+  width: 282px;
+  height: 282px;
+  background-color: rgba(0, 0, 0, .3);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.place-card__image_city_karachaevsk {
+  background-image: url(../../images/card-image.jpg);
+}
+
+.place-card__like-icon {
+  background: url(../../images/like-inactive.svg) center no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+  transition: transform .3s linear;
+}
+
+.place-card__like-icon_liked {
+  background-image: url(../../images/like-active.svg);
+}
+
+.place-card__like-icon:hover {
+  transform: scale(1.03);
+}
+
+.place-card__name {
+  margin: 0;
+  font-size: 24px;
+  line-height: 29px;
+}

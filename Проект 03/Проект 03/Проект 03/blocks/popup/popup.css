@@ -1,0 +1,131 @@
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.popup__button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 48px;
+  color: rgba(0, 0, 0, .2);
+  font-size: 36px;
+}
+
+.popup-edit__button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 48px;
+  color: rgba(0, 0, 0, .2);
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.popup-edit__button_enabled {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.popup__button_enabled {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.popup__close {
+  width: 26px;
+  position: absolute;
+  top: -26px;
+  right: -26px;
+  cursor: pointer;
+}
+
+.popup__content {
+  width: 430px;
+  min-height: 330px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 34px 36px;
+}
+
+.popup__content_image {
+  min-height: 330px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.popup__form {
+  margin-top: 60px;
+}
+
+.popup__input {
+  width: 100%;
+  height: 47px;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-size: 14px;
+  line-height: 17px;
+  box-sizing: border-box;
+  padding: 5px 6px 13px;
+  margin-bottom: 24px;
+}
+
+.popup__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.error-message {
+  min-height: 11px;
+  font-size: 12px;
+  line-height: 15px;
+  
+  color: #FF0000;
+
+  transition: .3s;
+  padding: 0px;
+  opacity: 0;
+}
+
+.input-container .error-message {
+  padding: 10px;
+  opacity: 1;
+}
+
+.input-container__invalid .error-message {
+  padding: 10px;
+  opacity: 1;
+}
+
+.input-container__invalid .input__text {
+  border-color: #FF0000;
+}
+
+.popup__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.popup.popup_is-opened {
+  display: flex;
+}
+
+@media screen and (max-width: 540px) {
+  .popup__content {
+    width: calc(100% - 60px);
+  }
+}
