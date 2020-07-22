@@ -1,14 +1,14 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url(../blocks/root/root.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/profile/profile.css);
-@import url(../blocks/user-info/user-info.css);
-@import url(../blocks/button/button.css);
-@import url(../blocks/places-list/places-list.css);
-@import url(../blocks/place-card/place-card.css);
-@import url(../blocks/popup/popup.css);
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/vendor/normalize.css"); 
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/vendor/fonts.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/root/root.css"); 
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/header/header.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/logo/logo.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/profile/profile.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/user-info.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/button/button.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/places-list/places-list.css"); 
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/place-card/place-card.css"); 
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/popup/popup.css"); 
 
 body {
   background-color: #000;
