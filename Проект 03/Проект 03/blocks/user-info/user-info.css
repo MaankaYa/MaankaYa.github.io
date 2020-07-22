@@ -1,8 +1,8 @@
-@import url(./__photo/user-info__photo.css);
-@import url(./__data/user-info__data.css);
-@import url(./__name/user-info__name.css);
-@import url(./__job/user-info__job.css);
-@import url(./__button/user-info__button.css);
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/__photo/user-info__photo.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/__data/user-info__data.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/__name/user-info__name.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/__job/user-info__job.css");
+@import url("https://maankaya.github.io/Проект%2003/Проект%2003/blocks/user-info/__button/user-info__button.css");
 
 .user-info {
   display: flex;
